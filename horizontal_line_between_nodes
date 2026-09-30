@@ -1,0 +1,8 @@
+digraph G {
+	bgcolor=black rankdir=LR
+	st [label=ST fillcolor="#444444" fontcolor=white shape=circle style=filled]
+	sa [label=SA fillcolor="#777777" fontcolor=white shape=circle style=filled]
+	line1 [label="" color=white fillcolor=white height=0.01 shape=box style=filled width=1.5]
+	st -> line1 [color=white]
+	line1 -> sa [color=white]
+}

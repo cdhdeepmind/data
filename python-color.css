@@ -1,0 +1,31 @@
+/* 파이썬 코드블록 내부의 특정 요소 색상 변경 */
+.cm-s-obsidian .cm-keyword, 
+.token.keyword {
+    color: #CC7BF4 !important; /* def, import, return 등의 키워드 색상 */
+}
+
+.cm-s-obsidian .cm-builtin, 
+.token.builtin {
+    color: #74b9ff !important; /* print, len 등의 내장함수 색상 */
+}
+
+.cm-s-obsidian .cm-string, 
+.token.string {
+    color: #55efc4 !important; /* "문자열" 색상 */
+}
+
+.cm-s-obsidian .cm-number, 
+.token.number {
+    color: #ffeaa7 !important; /* 숫자 색상 */
+}
+
+.cm-s-obsidian .cm-comment, 
+.token.comment {
+    color: #b2bec3 !important; /* # 주석 색상 */
+    font-style: italic;
+}
+
+.cm-s-obsidian .cm-def, 
+.token.function {
+    color: #fdcb6e !important; /* 사용자 정의 함수명 색상 */
+}

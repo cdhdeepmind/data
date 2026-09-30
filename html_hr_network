@@ -1,0 +1,18 @@
+digraph G {
+	bgcolor=black rankdir=LR
+	st [label="
+<<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" COLOR=\"white\">
+  <TR><TD><FONT COLOR=\"white\">ST</FONT></TD></TR>
+  <TR><TD><HR/></TD></TR>
+  <TR><TD><FONT COLOR=\"gray\">Stage 1</FONT></TD></TR>
+</TABLE>>
+" shape=none]
+	sa [label="
+<<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\" COLOR=\"white\">
+  <TR><TD><FONT COLOR=\"white\">SA</FONT></TD></TR>
+  <TR><TD><HR/></TD></TR>
+  <TR><TD><FONT COLOR=\"gray\">Stage 2</FONT></TD></TR>
+</TABLE>>
+" shape=none]
+	st -> sa [color=white]
+}

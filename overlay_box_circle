@@ -1,0 +1,5 @@
+digraph G {
+	bgcolor=black splines=false
+	box_bg [label="" color="#333333" fillcolor="#333333" height=0.5 pos="0,0!" shape=box style=filled width=1.5]
+	st [label=ST fillcolor="#666666" fontcolor=white pos="0,0!" shape=circle style=filled]
+}

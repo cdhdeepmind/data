@@ -1,0 +1,20 @@
+digraph G {
+	bgcolor=black rankdir=TB
+	subgraph cluster_group1 {
+		color=white label="Group 1"
+		st [label=ST fillcolor="#444444" fontcolor=white shape=circle style=filled]
+		sa [label=SA fillcolor="#777777" fontcolor=white shape=circle style=filled]
+		sb [label=SB fillcolor="#777777" fontcolor=white shape=circle style=filled]
+		st -> sa
+		st -> sb
+	}
+	subgraph cluster_group2 {
+		color=white label="Group 2"
+		ta [label=TA fillcolor="#8888FF" fontcolor=white shape=circle style=filled]
+		tb [label=TB fillcolor="#88AAFF" fontcolor=white shape=circle style=filled]
+		tc [label=TC fillcolor="#88CCFF" fontcolor=white shape=circle style=filled]
+		ta -> tb
+		tb -> tc
+	}
+	sb -> ta [color=gray style=dotted]
+}

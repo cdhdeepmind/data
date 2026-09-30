@@ -1,0 +1,14 @@
+/* 코드 블록(편집 모드 및 읽기 모드)에서만 JetBrains Mono 적용 */
+.markdown-source-view.mod-cm6 .cm-content,
+.markdown-source-view.mod-cm6 .cm-line,
+.markdown-rendered code,
+.markdown-rendered pre {
+    font-family: 'Roboto Mono', monospace !important;
+    font-weight: 400;
+    font-variant-ligatures: normal; /* 합자 기능(Ligatures)을 끄려면 normal, 켜려면 standard */
+}
+
+/* 인라인 코드(`code`)에도 적용하고 싶을 경우 */
+:not(pre) > code {
+    font-family: 'JetBrains Mono', monospace !important;
+}

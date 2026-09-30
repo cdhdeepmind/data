@@ -1,0 +1,8 @@
+digraph G {
+	{
+		rank=same
+		A [shape=point width=0.05]
+		B [shape=point width=0.05]
+		A -> B [color=black]
+	}
+}
